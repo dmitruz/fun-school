@@ -60,27 +60,27 @@ img {
  }
 
  .modal {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 450px;
-    
-    background-color:#808080;
-    transform: translate(-50%, -50%) scale(1);
-    padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 450px;
+	
+	background-color:#808080;
+	transform: translate(-50%, -50%) scale(1);
+	padding: 40px;
 }
 .close-btn {
-    position: absolute;
-    top: 8px;
-    right: 8px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    background-color: transparent;
-    justify-content: center;
-    align-items: center;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	background-color: transparent;
+	justify-content: center;
+	align-items: center;
 }
 .close-btn:hover {
     color:#ef744b;
@@ -96,12 +96,14 @@ img {
     border: 1px solid black;
 }
 
+
 .forma-modal {
     display: flex;
     flex-direction: column;
     
     margin-top: 40px;
 }
+
 
 
 ul.show {
@@ -135,7 +137,7 @@ a:hover {
 
 .hero-btn {
     cursor: pointer;
-    width: 400px;
+	width: 400px;
     height: 50px;
     border-radius: 30px;
     border: 1px solid black;
@@ -166,6 +168,7 @@ a:hover {
 }
 
 
+
 .lessons__container {
     display: flex;
     justify-content: space-around;
@@ -185,6 +188,7 @@ a:hover {
     text-align: center;
 }
 
+
 .gallery__item {
     margin: 10px;
 }
@@ -198,6 +202,7 @@ a:hover {
 .our__contacts {
     padding-top: 100px;
 }
+
 
 
 
@@ -229,6 +234,7 @@ a:hover {
     display: flex;
     flex-direction: column;
 }
+
 
 
 .form__btn {
@@ -426,7 +432,7 @@ img {
 }
 .form__btn {
      cursor: pointer;
-    
+	
     height: 36px;
     border-radius: 30px;
     border: 1px solid black;
@@ -448,6 +454,7 @@ img {
     justify-content: center;
 }
 }
+
 
 /*  ---------------------TABLET ---------------------*/
 
@@ -748,4 +755,3 @@ margin-bottom: 40px;
     width: 530px;
    }
 }
-
