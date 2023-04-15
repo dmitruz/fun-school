@@ -253,6 +253,9 @@ section {
     margin: 0 auto;
    
 }
+.hero {
+    width: 360px;
+}
 .container {
     margin-left: 0;
     width: 100%;
@@ -374,14 +377,16 @@ margin-top: 50px;
 }
 .lesson__card {
     width: 320px;
-    height: 400px;
+    height: 500px;
 }
 img {
     width: 320px;
-    height: 300px;
+    height: 400px;
 }
 .gallery-img {
     margin-left: 10px;
+    height: 300px;
+    border: 2px solid coral;
 }
 .our__pupils-text {
     margin-top: 20px;
@@ -538,15 +543,17 @@ img {
    
     .lesson__card {
         width: 320px;
-        height: 400px;
+        height: 500px;
     }
     img {
-        
+        height: 400px;
         width: 320px;
       
     }
    .gallery-img {
     margin-left: 0;
+    height: 300px;
+    border: 2px solid coral;
 }
    .our__pupils-text {
     margin-top: 40px;
@@ -669,11 +676,14 @@ margin-top: 30px;
     }
     img {
         width: 300px;
+        height: 400px;
         padding: 0;
         margin: 0;
     }
     .gallery-img {
     margin-left: 0;
+    height: 300px;
+    border: 2px solid coral;
 }
   .hero {
     
@@ -707,7 +717,7 @@ margin-bottom: 40px;
 }
 .lesson__card {
     width: 300px;
-    height: 400px;
+    height: 500px;
 }
 .gallery {
     display: flex;
