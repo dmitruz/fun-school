@@ -247,9 +247,9 @@ a:hover {
 
 /*MOBILE*/   
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 360px) {
 section {
-    width: 320px;
+    width: 360px;
     margin: 0 auto;
    
 }
