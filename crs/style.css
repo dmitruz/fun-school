@@ -434,6 +434,16 @@ img {
     margin-right: 10px;
     padding-left: 8px;
 }
+.modal__form-input {
+    
+    border: 1px solid grey;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 8px;
+}
 .form__btn {
      cursor: pointer;
 	
@@ -601,6 +611,9 @@ margin-top: 30px;
    .modal {
     width: 450px;
    }
+   .modal__form-input {
+    width: 400px;
+   }
 }
 @media  screen and (min-width: 1200px) {
     section {
@@ -752,6 +765,7 @@ margin-bottom: 40px;
     }
     .forma-modal {
         margin-left:0;
+        width: 400px;
     }
     .form__btn {
         margin-left: 10px;
@@ -762,5 +776,8 @@ margin-bottom: 40px;
     }
    .modal {
     width: 530px;
+   }
+   .modal__form-input {
+    width: 400px;
    }
 }
