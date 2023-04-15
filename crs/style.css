@@ -294,7 +294,8 @@ section {
     }
     h3 {
         font-size: 24px;
-        margin-right: 10px;
+       
+
     }
     h4 {
         font-size: 16px;
@@ -376,8 +377,11 @@ margin-top: 50px;
     height: 400px;
 }
 img {
-    width: 300px;
+    width: 320px;
     height: 300px;
+}
+.gallery-img {
+    margin-left: 10px;
 }
 .our__pupils-text {
     margin-top: 20px;
@@ -421,7 +425,7 @@ img {
 }
 .form-input {
     
-    width: 230px;
+    width: 310px;
     border: 1px solid grey;
     margin-left: 10px;
     padding-top: 10px;
@@ -531,7 +535,9 @@ img {
         width: 320px;
       
     }
-   
+   .gallery-img {
+    margin-left: 0;
+}
    .our__pupils-text {
     margin-top: 40px;
    }
@@ -653,6 +659,9 @@ margin-top: 30px;
         padding: 0;
         margin: 0;
     }
+    .gallery-img {
+    margin-left: 0;
+}
   .hero {
     
     width: 100%;
