@@ -199,11 +199,13 @@
     <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <div class="modal-form">
-      <form class="forma-modal" action="mail.php" method="POST">
+      <form class="forma-modal" action="https://formsubmit.co/dmitruz970@gmail.com" method="POST">
         <button type="button" class="close-btn" data-modal-close>X</button>
-      <input class="form-input" type="text" name="user_name" placeholder="Ім'я" />
-      <input class="form-input" type="text" name="user_phone" placeholder="Телефон" />
-      <input class="form-input" type="text" name="user_email" placeholder="Email" />
+        <input type="hidden" name="_subject" value="Message from Client">
+      <input class="form-input" type="text" name="name" placeholder="Ім'я" required />
+      <input class="form-input" type="text" name="phone" placeholder="Телефон" required/>
+      <input class="form-input" type="text" name="email" placeholder="Email" required/>
+      <input type="hidden" name="_next" value="https://fun-school.netlify.app/pages/thankyou.html"/>
       <button type="submit" class="form__btn"><h4>Залишити заявку</h4></button>
       </form>
       </div>
