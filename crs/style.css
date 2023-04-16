@@ -251,11 +251,11 @@ a:hover {
 section {
     width: 360px;
     margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
    
 }
-.hero {
-    width: 360px;
-}
+
 .container {
     margin-left: 0;
     width: 100%;
@@ -385,7 +385,7 @@ img {
 }
 .gallery-img {
     margin-left: 10px;
-    height: 300px;
+    height: 400px;
     border: 2px solid coral;
 }
 .our__pupils-text {
@@ -552,7 +552,7 @@ img {
     }
    .gallery-img {
     margin-left: 0;
-    height: 300px;
+    height: 400px;
     border: 2px solid coral;
 }
    .our__pupils-text {
@@ -682,7 +682,7 @@ margin-top: 30px;
     }
     .gallery-img {
     margin-left: 0;
-    height: 300px;
+    height: 400px;
     border: 2px solid coral;
 }
   .hero {
