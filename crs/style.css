@@ -104,7 +104,12 @@ img {
     margin-top: 40px;
 }
 
-
+.thanks__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 ul.show {
     display: block;
